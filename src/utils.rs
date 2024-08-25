@@ -36,3 +36,12 @@ pub fn select_pokemon() -> String {
     println!("You selected: {}\n", selected_pokemon);
     selected_pokemon.to_string()
 }
+
+pub struct MoveList {
+    name: str
+}
+pub struct Pokemon {
+    name: str,
+    health_points: u32,
+    move_list: MoveList,
+}
