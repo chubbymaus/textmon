@@ -24,7 +24,7 @@ fn main() {
 
     println!("You selected: {}\n", selected_pokemon_to_fight);
     println!(
-        "{} vs {}! Let the battle begin!",
+        "{} vs {} Let the battle begin!",
         selected_pokemon.blue(),
         selected_pokemon_to_fight.blue()
     );
